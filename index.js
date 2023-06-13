@@ -2,7 +2,8 @@ function receivesAFunction(callback){
     return callback();
 }
 function returnsANamedFunction(){
-    return namedFunction = function(){};
+    const namedFunction = function(){};
+    return namedFunction;
 }
 
 function returnsAnAnonymousFunction(){
