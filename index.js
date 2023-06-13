@@ -8,3 +8,4 @@ function returnsANamedFunction(){
 function returnsAnAnonymousFunction(){
     return function(){};
 }
+console.log("Rumi is awesome!");
